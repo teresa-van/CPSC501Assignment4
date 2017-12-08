@@ -76,12 +76,7 @@ class FFTConvolve():
         if abs(numpy.amax(samples)) > abs(numpy.amin(samples)): maximum = abs(numpy.amax(samples))
         else: maximum = abs(numpy.amin(samples))
 
-        temp = 0
-        accumulator = samples / maximum
-        for i in range(((2**bitsize // 2) - 1)):
-          temp += accumulator
-
-        samples = temp
+        samples = (samples / maximum * ((2**bitsize / 2) - 1))
         return samples
 
     #The main function of the program
