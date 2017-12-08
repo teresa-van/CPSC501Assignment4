@@ -77,9 +77,9 @@ class FFTConvolve():
         else: maximum = abs(numpy.amin(samples))
 
         temp = 0
-
+        accumulator = samples / maximum
         for i in range(((2**bitsize // 2) - 1)):
-            temp += (samples / maximum)
+          temp += accumulator
 
         samples = temp
         return samples
