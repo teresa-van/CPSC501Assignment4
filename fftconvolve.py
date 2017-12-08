@@ -75,7 +75,7 @@ class FFTConvolve():
     #Required to pack shorts into struct, and extend to a bytearray
     def Normalize(samples, bitsize):
         maximum = max(abs(numpy.amax(samples)), abs(numpy.amin(samples)))
-        samples = (samples // maximum * ((2**bitsize // 2) - 1))
+        samples = (samples / maximum * ((2**bitsize // 2) - 1))
         return samples
 
     #The main function of the program
