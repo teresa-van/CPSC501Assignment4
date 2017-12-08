@@ -1,10 +1,26 @@
+commit c6e711eedb2bd5d18a8dd44cbb6f5664bb5b36b3
+Author: Teresa Van <teresa.van@ucalgary.ca>
+Date:   Fri Dec 8 14:53:54 2017 -0700
+
+    Included output .wav files for convolve and fft as well as pdf version of report/profile report
+
+----------------------------------------------------------------------------------------------------
+
+commit 7c7abca4cdd542307687f256475cd31ee787b23e
+Author: Teresa Van <teresa.van@ucalgary.ca>
+Date:   Fri Dec 8 14:31:51 2017 -0700
+
+    Added logs and made slight changes to report.
+
+----------------------------------------------------------------------------------------------------
+
 commit 783fa978414f4da950debd45c42d750f51d7d5f6
 Author: Teresa Van <teresa.van@ucalgary.ca>
 Date:   Fri Dec 8 14:23:36 2017 -0700
 
     Included report, profiler reports, and output .wav files for baseline program and fft program.
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 60f46a077d68b6a13010f87396803ce251ec81eb
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -12,7 +28,7 @@ Date:   Fri Dec 8 14:19:48 2017 -0700
 
     Code tuning: exploit algebraic identities
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 7caca37cac524e196374ea49a93e04c219a364e7
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -20,7 +36,7 @@ Date:   Fri Dec 8 14:19:06 2017 -0700
 
     Code tuning: initialize at compile time
 
--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 415489fd59278141dd5a06ef039f3b65492c5a2e
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -28,7 +44,7 @@ Date:   Fri Dec 8 14:18:28 2017 -0700
 
     Code tuning: strength reduction
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 52cb053bd7cdc06b8a8bec4cf7e102f14267ddb2
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -36,7 +52,7 @@ Date:   Fri Dec 8 14:17:41 2017 -0700
 
     Code tuning: unrolling
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 02542625ba2b370ce83faa41981b07521b0a11d1
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -44,7 +60,7 @@ Date:   Fri Dec 8 14:16:57 2017 -0700
 
     Code tuning: minimizing work inside loops.
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit ab2464fe28c72d73dcd99ff00de465be411111d7
 Author: Teresa Van <teresa.van@ucalgary.ca>
@@ -52,7 +68,7 @@ Date:   Fri Dec 8 14:15:49 2017 -0700
 
     Algorithm-based optimization: optimization done by creating a second version of the program using the FFT algorithm instead.
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 commit 7b62c2745427817ec67ba4ae19ff7c785bcbcc8a
 Author: Teresa Van <teresa.van@ucalgary.ca>
