@@ -15,6 +15,7 @@ import numpy
 from scipy import signal
 from scipy import fftpack
 
+bitsize = 16
 class FFTConvolve():
     #Read samples from a WAV file, return the samples and the parameters for the WAV file
     def LoadWaveFile(filename):
@@ -84,8 +85,6 @@ class FFTConvolve():
     #Convolves dry recording with impulse response and normalizes it according to a 16-bit size format
     #Writes the result to a .wav file
     def Main(dryRecording, impulseResponse, outputFile):
-        bitsize = 16
-
         #Read from dry recording and impulse response to get their samples and parameters
         (dryRecSamples, dryRecParams) = FFTConvolve.LoadWaveFile(dryRecording)
         (IRSamples, IRParams) = FFTConvolve.LoadWaveFile(impulseResponse)
