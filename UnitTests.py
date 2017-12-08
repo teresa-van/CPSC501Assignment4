@@ -1,3 +1,9 @@
+#Written by Teresa Van
+#10149274
+#CPSC 501 Assignment #4
+#Resources: https://docs.python.org/3/library/unittest.html
+#USAGE: python3 -m unittest UnitTests.py -v
+
 import unittest
 import numpy
 from fftconvolve import FFTConvolve

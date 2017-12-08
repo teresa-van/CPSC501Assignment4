@@ -1,3 +1,9 @@
+#Written by Teresa Van
+#10149274
+#CPSC 501 Assignment #4
+#Resources: https://pymotw.com/2/profile/
+#USAGE: python3 profiler.py [ProfileFFT or ProfileConvolve] dryrecording.wav impulseresponse.wav output.wav 
+
 import cProfile
 import sys
 from convolve import Convolve
